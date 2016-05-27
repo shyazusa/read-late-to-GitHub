@@ -1,0 +1,15 @@
+{
+  "title": "read-late-to-GitHub",
+  "name": "readlatetogithub",
+  "version": "0.0.1",
+  "description": "Read late page, to issue in GitHub",
+  "main": "index.js",
+  "author": "shy_azusa",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
