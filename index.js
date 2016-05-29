@@ -28,10 +28,6 @@ function handleClick(state) {
   var url = 'https://api.github.com/repos/' + user +'/' + repo + '/issues?access_token=' + token;
   Request({
     url: url,
-    content: query,
-    onComplete: function(res) {
-      console.log(res.text);
-    }
+    content: query
   }).post();
-  console.log(url);
 }
